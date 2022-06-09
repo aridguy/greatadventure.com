@@ -1,1 +1,0 @@
-# greatadventure.com
