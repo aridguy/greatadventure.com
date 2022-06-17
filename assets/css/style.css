@@ -53,8 +53,7 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-  height: 67rem; }
+    bottom: 0; }
   .probootstrap-cover a:hover {
     color: #fff; }
   .probootstrap-cover h2 {
@@ -246,7 +245,6 @@ a {
   position: relative; }
   .probootstrap_select-wrap:before {
     font-family: 'Ionicons';
-    /* speak: none; */
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -555,18 +553,12 @@ a {
       border-top: 1px solid #e6e6e6;
 }
 
-/* my custome css  */
-
-#theBackVid{
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-}
-
-.contactHeadBtn{
+/* cutsome css down here */
+.hContactBtn{
   background-color: #780909;
   border: none;
 }
-.contactHeadBtn:hover{
-  background-color: #fea204;
+.hContactBtn:hover{
+  background-color: #f3ad0c;
+  border: none;
 }
