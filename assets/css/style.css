@@ -646,4 +646,21 @@ input:active{
   color: rgb(0, 0, 0);
   font-weight: bolder;
 }
+.text-black2, .uppercase{
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+.approces{
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: fit-content;
+  color: white;
+  
+}
+
+#wwdAb{
+  background-color: #000000a4;
+  
+}
 
