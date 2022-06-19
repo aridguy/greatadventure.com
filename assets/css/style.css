@@ -664,6 +664,10 @@ input:active{
   
 }
 
+.text-warnings{
+  color: #583131;
+}
+
 .bg-lights{
   background-color: rgb(0, 0, 0);
 }
