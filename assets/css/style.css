@@ -49,11 +49,12 @@ a {
   padding: 7em 0; }
   .probootstrap-cover .overlay {
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(5, 1, 1, 0.717);
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    height: 890px; }
   .probootstrap-cover a:hover {
     color: #fff; }
   .probootstrap-cover h2 {
@@ -145,7 +146,7 @@ a {
   .border-bottom:after {
     width: 50px;
     height: 2px;
-    background: #00CA4C;
+    /* background: #780909; */
     position: absolute;
     content: "";
     bottom: 0;
@@ -174,8 +175,8 @@ a {
   #section-feature-testimonial .probootstrap-author a .probootstrap-title {
     color: #b3b3b3; }
 
-#section-city-guides {
-  border-top: 1px solid #e6e6e6; }
+/* #section-city-guides {
+  border-top: 1px solid #e6e6e6; } */
 
 .probootstrap-thumbnail {
   position: relative;
@@ -362,7 +363,7 @@ a {
       box-shadow: none;
       -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-      border: 1px solid #00CA4C; }
+      border: 1px solid #e7b00d; }
   .probootstrap-form .form-group:last-child {
     margin-bottom: 0;
     padding-bottom: 0; }
@@ -407,10 +408,10 @@ a {
   .select2-dropdown:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #00CA4C; }
+    border: 1px solid #efc109; }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background: #00CA4C; }
+  background: #780909; }
 
 .select2-container--default .select2-results__option[aria-selected=true] {
   background: #d9d9d9;
@@ -499,7 +500,7 @@ a {
       visibility: visible; }
     .owl-carousel .probootstrap-slide:hover span, .owl-carousel .probootstrap-slide:focus span {
       top: 40%;
-      color: #00CA4C; }
+      color: #780909; }
 
 .owl-carousel .owl-nav {
   position: absolute;
@@ -530,7 +531,7 @@ a {
     border-radius: 50%;
     background: #e6e6e6; }
     .owl-carousel .owl-dots .owl-dot.active {
-      background: #00CA4C; }
+      background: #780909; }
 
 .probootstrap-date-wrap {
   position: relative; }
@@ -562,3 +563,29 @@ a {
   background-color: #f3ad0c;
   border: none;
 }
+
+#backVid {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+.tvsA{
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+.s2h{
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+a{
+  color: brown;
+}
+a:hover{
+  color: brown;
+}
+
