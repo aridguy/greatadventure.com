@@ -32,6 +32,23 @@
   <link rel="stylesheet" href="assets/css/helpers.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/sideicons.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    // FAQ ACCORDION SCRIPT
+    $(document).ready(function(){
+  $("#q1").click(function(){
+    $("#q1text").slideToggle("slow");
+  });
+
+  $("#q2").click(function(){
+    $("#q2text").slideToggle("slow");
+  });
+
+  $("#q3").click(function(){
+    $("#q3text").slideToggle("slow");
+  });
+});
+  </script>
 
 </head>
 
@@ -745,6 +762,56 @@
     </div>
   </section>
   <!-- END section -->
+
+  <section class="probootstrap_section" id="section-feature-faq">
+    <div class="container">
+      <h2 class="text-center">Frequently Asked Questions FAQ</h2>
+      <i class="text-center">Check out the answers below to see if it has been previously answered.</i>
+      <div class="row pt-5">
+        
+        <div class="col-md-12">
+          <div id="q3" 
+          style="background-color:rgb(241, 241, 241); cursor: pointer;" 
+          class="p-2">
+          <h2 class="text-black bold">What are the requirements for </h2></div>
+          <p id="q3text">
+            Lorem ipsum, dolor sit amet consectetur 
+          adipisicing elit. Molestiae porro quo 
+          excepturi voluptates, id totam iusto aliquam 
+          aliquid tempora amet nostrum asperiores, 
+          voluptate qui ipsam eos harum corrupti exercitationem esse?
+          </p>
+        </div>
+        
+      </div>
+      <div class="row pt-5">
+     
+        <div class="col-md-12">
+          <div id="q1" style="background-color:rgb(241, 241, 241); cursor: pointer;" class="p-2"><h2 class="text-black bold">THIS IS QUESTION ONE</h2></div>
+          <p id="q1text">
+            Lorem ipsum, dolor sit amet consectetur 
+          adipisicing elit. Molestiae porro quo 
+          excepturi voluptates, id totam iusto aliquam 
+          aliquid tempora amet nostrum asperiores, 
+          voluptate qui ipsam eos harum corrupti exercitationem esse?
+          </p>
+        </div>
+   
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-12">
+          <div id="q2" style="background-color:rgb(241, 241, 241); cursor: pointer;" class="p-2"><h2 class="text-black bold">THIS IS QUESTION ONE</h2></div>
+          <p id="q2text">
+            Lorem ipsum, dolor sit amet consectetur 
+          adipisicing elit. Molestiae porro quo 
+          excepturi voluptates, id totam iusto aliquam 
+          aliquid tempora amet nostrum asperiores, 
+          voluptate qui ipsam eos harum corrupti exercitationem esse?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <footer class="probootstrap_section probootstrap-border-top bg-warnimg">

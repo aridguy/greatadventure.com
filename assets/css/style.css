@@ -674,3 +674,9 @@ input:active{
 .bg-lightsss{
   background-color: #f8f6f6;
 }
+
+.bold{
+  font-weight: bolder;
+  font-weight: 900;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
