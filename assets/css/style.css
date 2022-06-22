@@ -311,8 +311,8 @@ a {
       .probootstrap_feature-v1:hover, .probootstrap_feature-v1:focus {
         top: 0; } }
 
-.probootstrap-border-top {
-  border-top: 1px solid #ECECEC; }
+/* .probootstrap-border-top {
+  border-top: 1px solid #ECECEC; } */
 
 @media (max-width: 991px) {
   .probootstrap-section-heading {
