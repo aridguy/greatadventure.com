@@ -486,3 +486,10 @@
     padding-right: 0;
     border-right: none;
 }
+
+.completedss{
+    background-image: url(../img/pexels-mike-1178683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
