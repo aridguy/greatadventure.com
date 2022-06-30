@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 *{
     padding:0;
@@ -26,15 +27,14 @@
     
     display:flex;
 }
-.container .card .left-side{
-    width:35%;
-    background-color:#304767;
-    height:100%;
- border-top-left-radius:20px;
- border-bottom-left-radius:20px;
-  padding:20px 30px;
-  box-sizing:border-box;
-
+.container .card .left-side {
+    width: 35%;
+    background-color: #304767;
+    height: 47em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px 30px;
+    box-sizing: border-box;
 }
 /*left-side-start*/
 .left-heading{
@@ -118,31 +118,11 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*left-side-end*/
 .container .card .right-side{
     width:65%;
     background-color:#fff;
-    height:100%;
+    height: 47em;
   border-radius:20px;
 }
 /*right-side-start*/
@@ -404,14 +384,6 @@ select{
 }
 
 
-
-
-
-
-
-
-
-
 .warning{
     border:1px solid red !important;
 }
@@ -431,6 +403,7 @@ select{
     }
     .container .card .right-side {
      width:100%;
+     height: 47em;
             
     }
      .input-text{
@@ -447,3 +420,4 @@ select{
      display: none;
     }
 }
+    
