@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(33, 34, 34, 0.1),rgba(33, 34, 34, 0.1)), url(./IMG-20220303-WA0015\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.header-text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+label{
+    font-size: 18px;
+    transition: 1s;
+}
+form{
+    margin: auto;
+    width: 60%;
+    background: #5831318f;
+    border-radius: 20px;
+    transition: 1s;
+    margin-bottom: 100px;
+    color: white;
+}
+/*form:hover, .label{
+    color: #fff;
+    background: rgba(20, 79, 207, 0.7);
+}*/
+.content, .date{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
