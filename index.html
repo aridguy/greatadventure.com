@@ -565,17 +565,18 @@
 
                             <div class="callback d-flex flex-column align-items-center justify-content-center">
                                 <div class="heading d-flex flex-column align-items-center justify-content-center">
-                                    <span class="fas fa-phone wow shake infinite"></span> 
+                                    <span class="fas fa-phone wow shake infinite"></span>
                                     <p class="h-1 p">Get a <b>FREE</b> call back</p>
                                     <p class="p-1 p">Leave your name and phone number. we will call back soon!</p>
                                 </div>
                                 <div class="d-md-flex">
                                     <div class="row">
-                                        <div class="col-md-5 col-12 me-md-4">
-                                            <input class="form-control" type="text" placeholder="Your Name">
+                                        <div class="col-md-5 col-12">
+                                            <input class="form-control callBackForm" type="text"
+                                                placeholder="Your Name">
                                         </div>
-                                        <div class="col-md-5 col-12 ms-md-1">
-                                            <input class="form-control" type="text" placeholder="Phone No">
+                                        <div class="col-md-5 col-12">
+                                            <input class="form-control callBackForm" type="text" placeholder="Phone No">
                                         </div>
                                     </div>
                                     <div class="btn btn-primary">Submit</div>
@@ -665,15 +666,21 @@
                                 }
 
                                 @media (max-width:500px) {
-                                    /* body {
-        padding: 20px 0;
 
-    } */
+                                    .callBackForm {
+                                        width: 4em;
+                                    }
 
                                     .callback .form-control {
-                                        width: 100%;
+                                        width: 18em;
                                         height: 50px;
                                         margin-bottom: 15px;
+
+                                    }
+
+                                    .heading {
+                                        cursor: pointer;
+                                        width: 19em;
                                     }
 
                                     .callback .btn.btn-primary {
