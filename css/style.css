@@ -871,3 +871,14 @@ background-color: #12232E;
         width: 100%;
     }
 }
+
+
+
+/* HEADER TEXT SLIDER */
+.text-slider-items {
+    display: none;
+  }
+
+ .text-slider {
+    color: white;
+  }
