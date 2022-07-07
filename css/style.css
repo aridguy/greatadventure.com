@@ -879,6 +879,12 @@ background-color: #12232E;
     display: none;
   }
 
- .text-slider {
+  /* .text-slider {
     color: white;
-  }
+   
+} */
+
+.text-slider {
+    color: white;
+    font-family: 'Nunito';
+}
