@@ -219,8 +219,9 @@
 
 /*** Service ***/
 .service-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 45px rgb(0 0 0 / 8%);
     transition: .5s;
+    height: 21em;
 }
 
 .service-item:hover {
