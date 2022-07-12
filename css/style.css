@@ -728,45 +728,9 @@ img {
     /* width: 100%; */
 }
 
-/* whasap */
-.btn-whatsapp-pulse {
-	background: #25d366;
-	color: white;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 0;
-	height: 0;
-	padding: 35px;
-	text-decoration: none;
-	border-radius: 50%;
-	animation-name: pulse;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
+body{
+    overflow-x: hidden;
 }
-
-@keyframes pulse {
-	0% {
-		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
-	}
-	80% {
-		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
-	}
-}
-
-.btn-whatsapp-pulse-border {
-	bottom: 120px;
-	right: 20px;
-	animation-play-state: paused;
-}
-
-
-
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
@@ -833,7 +797,6 @@ background-color: #12232E;
     justify-content: center;
     border: none;
 }
-
 .callback .btn.btn-primary:hover {
     background-color: #583131;
 }
@@ -843,7 +806,6 @@ background-color: #12232E;
     height: 50px;
     box-shadow: none;
 }
-
 ::placeholder {
     font-size: 12px;
     color: black !important;
@@ -855,14 +817,12 @@ background-color: #12232E;
     .callBackForm {
         width: 4em;
     }
-
     .callback .form-control {
         width: 18em;
         height: 50px;
         margin-bottom: 15px;
 
     }
-
     .heading {
         cursor: pointer;
         width: 19em;
@@ -873,8 +833,6 @@ background-color: #12232E;
     }
 }
 
-
-
 /* HEADER TEXT SLIDER */
 .text-slider-items {
     display: none;
@@ -882,7 +840,6 @@ background-color: #12232E;
 
   /* .text-slider {
     color: white;
-   
 } */
 
 .text-slider {
