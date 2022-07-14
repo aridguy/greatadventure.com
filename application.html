@@ -1,246 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <!-- Latest compiled and minified CSS -->
+
+    <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Latest compiled JavaScript -->
+    <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>Application</title>
 </head>
+
 <body>
-<div class="container">
-    <div class="row">
-    <P class="h2 text-center header-text text-white">Application Form</P>
+    <div class="container">
+        <div class="row">
+            <P class="h2 text-center header-text text-white">Application Form</P>
 
-        <form class="pt-3">
-            <a href="index.html" class="btn btn-warning" style="padding-left: 2em"> <i class="fa fa arrow-left"></i>Home</a>
-            <p class="h4 text-center">Personal Data</p>
+            <form class="pt-3">
+                <a href="index.html" class="btn btn-warning" style="padding-left: 2em"> <i
+                        class="fa fa arrow-left"></i>Home</a>
+                <p class="h4 text-center">Personal Data</p>
 
-                      <div class="content">
-                        <label><b>Surname:</b></label>
-                        <input  required type="text" class="form-control" placeholder="Surname?" name="surname">
-                      </div>
-                      
+                <div class="content">
+                    <label><b>Surname:</b></label>
+                    <input required type="text" class="form-control" placeholder="Surname?" name="surname">
+                </div>
 
-                      <div class="content">
-                        <label><b>Firstname:</b></label>
-                        <input  required type="text" class="form-control" placeholder="Firstname?" name="firstname">
-                      </div>
-                     
 
-                      <div class="content">
-                        <label><b>Permanent Home Address:</b></label>
-                        <input  required type="text" class="form-control" placeholder="Home address?" name="PHA">
-                      </div>
-                     
+                <div class="content">
+                    <label><b>Firstname:</b></label>
+                    <input required type="text" class="form-control" placeholder="Firstname?" name="firstname">
+                </div>
 
-                      <div class="content">
-                        <label><b>Town/city:</b></label>
-                        <input  required type="text" class="form-control" placeholder="?" name="town">
-                      </div>
-                     
 
-                      <div class="content">
-                        <label><b>Country:</b></label>
-                        <input  required type="text" class="form-control" placeholder="?" name="country">
-                      </div>
-                     
+                <div class="content">
+                    <label><b>Permanent Home Address:</b></label>
+                    <input required type="text" class="form-control" placeholder="Home address?" name="PHA">
+                </div>
 
-                      <div class="content">
-                        <label><b>Date Of Birth:</b></label>
-                        <input  required type="date" class="form-control" name="DOB">
-                      </div>
-                     
 
-                      <div class="content">
-                        <label><b>Email:</b></label>
-                        <input  required type="email" class="form-control" placeholder="tiudgh465@gmail.com?" name="email">
-                      </div>
-                      
+                <div class="content">
+                    <label><b>Town/city:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="town">
+                </div>
 
-                      <div class="content">
-                        <label><b>Phone:</b></label>
-                        <input  required type="number" class="form-control" placeholder="What'sapp Perferable!" name="phone">
-                      </div>
 
-                      <div class="content">
-                        <label><b>Gender:</b></label>
-                        <input  required type="text" list="gender" class="form-control" name="gender">
-                        <datalist id="gender">
-                            <option >Male</option>
-                            <option >Female</option>
-                        </datalist>
-                      </div>
-                     
+                <div class="content">
+                    <label><b>Country:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="country">
+                </div>
 
-                      <div class="content">
-                        <label><b>Marital status:</b></label>
-                        <input  required type="text" class="form-control" placeholder="Single?" name="mStatus">
-                      </div>
-                     
 
-                    <div class="content">
-                        <label><b>Perfered Destination:</b></label>
-                        <input  required type="text" class="form-control"  placeholder="?" name="pDestination">
+                <div class="content">
+                    <label><b>Date Of Birth:</b></label>
+                    <input required type="date" class="form-control" name="DOB">
+                </div>
+
+
+                <div class="content">
+                    <label><b>Email:</b></label>
+                    <input required type="email" class="form-control" placeholder="tiudgh465@gmail.com?" name="email">
+                </div>
+
+
+                <div class="content">
+                    <label><b>Phone:</b></label>
+                    <input required type="number" class="form-control" placeholder="What'sapp Perferable!" name="phone">
+                </div>
+
+                <div class="content">
+                    <label><b>Gender:</b></label>
+                    <input required type="text" list="gender" class="form-control" name="gender">
+                    <datalist id="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </datalist>
+                </div>
+
+
+                <div class="content">
+                    <label><b>Marital status:</b></label>
+                    <input required type="text" class="form-control" placeholder="Single?" name="mStatus">
+                </div>
+
+
+                <div class="content">
+                    <label><b>Perfered Destination:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="pDestination">
+                </div>
+
+
+                <div class="content">
+                    <label><b>Country of citizenship:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="COC">
+                </div>
+
+
+                <div class="content">
+                    <label><b>Disability</b></label>
+                    <input required type="text" class="form-control" placeholder="If yes, Specify!" name="Disability">
+                </div>
+
+
+                <div class="content">
+                    <label><b>Travelling with spouse</b></label>
+                    <input required type="text" class="form-control" placeholder="If yes, Specify!" name="TWS">
+                </div>
+
+
+
+                <p class="h4 text-center pt-5">Academic History</p>
+                <div class="content">
+                    <i class="text-center">let us know what degree you currently posses</i>
+                </div>
+
+                <div class="content">
+                    <p><label><b>Select Current Degree:</b></label></p>
+                    <!-- <select class="form-control" name="degrees" id="degrees">
+                        <option id="chooseCurrentQau" value="select-current-qualification">Select degree</option> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <option id="ssce" value="ssce">SSCE</option>
+                        <option id="bachelor" value="bachelor">BACHELOR</option>
+                        <option id="masters" value="masters">MASTERS</option>
+                    </select> -->
+                    <input id="programBox" required type="text" class="form-control" placeholder="Undergraduate, Bachelor, Masters" name="secondarySchool">
+                    <p></p>
+                    <p>
+                        <input id="undergraduateFile" class="UndergraduateFile " type="file" name="UndergraduateFile">
+                    <input class="bachelorFile" type="file" name="bachelorFile">
+                    <input class="mastersFile " type="file" name="mastersFile"></p>
+                    <b id="sub">check</b>
+                </div>
+                <style>
+                    .UndergraduateFile, .mastersFile{
+                        
+                        display: none;
+                    }
+
+                    #programBox{
+                        text-transform: uppercase;
+                    }
+                </style>
+                <script type="text/javascript">
+                    document.getElementById('sub').onclick = function(){
+                        var programBox = document.getElementById('programBox').value;
+
+                        if (programBox === "UNDERGRADUATE") {
+                            document.getElementById('undergraduateFile').style.display = "block";
+                        }
+
+                    }
+                </script>
+               
+
+
+
+                <!-- THE FILE UPLOAD SECTION -->
+                <!-- <div class="content">
+                    <div class="row selectguys">
+                        <div class="col-md-4">
+                            <span>SSCE</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span>Barchelor</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span>Barchelor</span>
+                        </div>
                     </div>
-                    
+                </div> -->
 
-                    <div class="content">
-                        <label><b>Country of citizenship:</b></label>
-                        <input  required type="text" class="form-control" placeholder="?" name="COC">
-                    </div>
-                    
-
-                    <div class="content">
-                        <label><b>Disability</b></label>
-                        <input  required type="text" class="form-control"  placeholder="If yes, Specify!" name="Disability">
-                    </div>
-                    
-
-                      <div class="content">
-                        <label><b>Travelling with spouse</b></label>
-                        <input  required type="text" class="form-control" placeholder="If yes, Specify!" name="TWS">
-                      </div>
-                     
+                <div class="content">
+                    <label><b>School Name:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="sName">
+                </div>
 
 
-            <p class="h4 text-center pt-5">Academic History</p>
+                <div class="content">
+                    <label><b>School Address:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="sAddress">
+                </div>
 
-            <div class="content">
-                <label><b>Secondary School:</b></label>
-                <input  required type="text" class="form-control" placeholder="?" name="secondarySchool">
-            </div>
-            
-        
-            <div class="content">
-                <label><b>School Name:</b></label>
-                <input  required type="text" class="form-control" placeholder="?" name="sName">
-            </div>
-          
 
-            <div class="content">
-                <label><b>School Address:</b></label>
-                <input  required type="text" class="form-control" placeholder="?" name="sAddress">
-            </div>
-            
+                <div class="content">
+                    <label><b>City:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="ahCity">
+                </div>
 
-            <div class="content">
-                <label><b>City:</b></label>
-                <input  required type="text" class="form-control" placeholder="?" name="ahCity">
-            </div>
-            
 
-            <div class="content">
-                <label><b>Country:</b></label>
-                <input  required type="text" class="form-control" placeholder="?" name="ahCountry">
-            </div>
-           
+                <div class="content">
+                    <label><b>Country:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="ahCountry">
+                </div>
 
-            <div class="date">
-            <label><b>Date:</b></label>
-                <div class="row">
-                    <div class="col-md-6">
-                        <span>From:
-                            <input  required type="date" class="form-control" name="datefrom">
-                        </span>
-                    </div>
-                    <div class="col-md-6">
-                        <span>To:
-                            <input  required type="date" class="form-control" name="dateto">
-                        </span>
+
+                <div class="date">
+                    <label><b>Date:</b></label>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>From:
+                                <input required type="date" class="form-control" name="datefrom">
+                            </span>
+                        </div>
+                        <div class="col-md-6">
+                            <span>To:
+                                <input required type="date" class="form-control" name="dateto">
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        
-            <div class="content">
-                <label><b>Year of graduation:</b></label>
-                <input  required type="date" class="form-control"  name="YOgraduation">
-            </div>
-           
 
-            <div class="content">
-                <label><b>Certificate avaliable:</b></label>
-                <input  required type="text" class="form-control" placeholder="Yes OR No" name="Certificate">
-            </div>
-            
-        
-            <div class="content">
-                <label><b>Higher institution:</b></label>
-                <input  required type="text" class="form-control" placeholder="Polytechinc,University" name="institution">
-            </div>
-
-            <p class="h4 text-center pt-5">Enrollment</p>
-                
-            <div class="content">
-                <label><b>Educational objective:</b></label>
-                <input  required type="text" class="form-control" placeholder="?" name="eObjective">
-            </div>
-
-            <div class="content">
-                <label><b>Level of education:</b></label>
-                <input  required type="text" list="education" class="form-control" placeholder="?" name="eObjective">
-                <datalist id="education">
-                    <option>A'level</option>
-                    <option>Foundation</option>
-                    <option>PGCert</option>
-                    <option>PGDip</option>
-                    <option>Masters</option>
-                    <option>PhD</option>
-                </datalist>
-            </div>
-
-            <div class="content">
-                <label><b>Intake:</b></label>
-                <input  required type="text" list="intake" class="form-control" placeholder="?" name="intake">
-                <datalist id="intake">
-                    <option>September 2022</option>
-                    <option>January 2023</option>
-                    <option>May 2023</option>
-                    <option>September 2023</option>
-                </datalist>
-            </div>
-
-            <div class="content">
-                <label><b>Course of Study:</b></label>
-                <input  required type="text" list="course" class="form-control" placeholder="?" name="course">
-                <datalist id="course">
-                    <option>1st choice</option>
-                    <option>2nd choice</option>
-                    <option>3rd choice</option>
-                </datalist>
-            </div>
-           
-            <div class="content">
-                <label><b>Tuition Budget:</b></label>
-                <input  required type="text" class="form-control" placeholder="?" name="tBudget">
-            </div>
+                <div class="content">
+                    <label><b>Year of graduation:</b></label>
+                    <input required type="date" class="form-control" name="YOgraduation">
+                </div>
 
 
-            <p class="h4 text-center pt-5">Sponsor Details</p>
+                <div class="content">
+                    <label><b>Certificate avaliable:</b></label>
+                    <input required type="text" class="form-control" placeholder="Yes OR No" name="Certificate">
+                </div>
 
 
-            <div class="content">
-                <label><b>How will you be paying:</b></label>
-                <input  required type="text" list="payment" class="form-control" placeholder="?" name="payment">
-                <datalist id="payment">
-                    <option>Self Sponsor</option>
-                    <option>Family Sponsor</option>
-                </datalist>
-            </div>
+                <div class="content">
+                    <label><b>Higher institution:</b></label>
+                    <input required type="text" class="form-control" placeholder="Polytechinc,University"
+                        name="institution">
+                </div>
 
-            <p class="h6 text-center">please provide details!</p>
+                <p class="h4 text-center pt-5">Enrollment</p>
 
-            <button type="submit" class="btn btn-warning d-block submit" style="width:100%">Submit</button>
-        </form>   
-</div>
-        
-</div>
+                <div class="content">
+                    <label><b>Educational objective:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="eObjective">
+                </div>
+
+                <div class="content">
+                    <label><b>Level of education:</b></label>
+                    <input required type="text" list="education" class="form-control" placeholder="?" name="eObjective">
+                    <datalist id="education">
+                        <option>A'level</option>
+                        <option>Foundation</option>
+                        <option>PGCert</option>
+                        <option>PGDip</option>
+                        <option>Masters</option>
+                        <option>PhD</option>
+                    </datalist>
+                </div>
+
+                <div class="content">
+                    <label><b>Intake:</b></label>
+                    <input required type="text" list="intake" class="form-control" placeholder="?" name="intake">
+                    <datalist id="intake">
+                        <option>September 2022</option>
+                        <option>January 2023</option>
+                        <option>May 2023</option>
+                        <option>September 2023</option>
+                    </datalist>
+                </div>
+
+                <div class="content">
+                    <label><b>Course of Study:</b></label>
+                    <input required type="text" list="course" class="form-control" placeholder="?" name="course">
+                    <datalist id="course">
+                        <option>1st choice</option>
+                        <option>2nd choice</option>
+                        <option>3rd choice</option>
+                    </datalist>
+                </div>
+
+                <div class="content">
+                    <label><b>Tuition Budget:</b></label>
+                    <input required type="text" class="form-control" placeholder="?" name="tBudget">
+                </div>
+
+
+                <p class="h4 text-center pt-5">Sponsor Details</p>
+
+
+                <div class="content">
+                    <label><b>How will you be paying:</b></label>
+                    <input required type="text" list="payment" class="form-control" placeholder="?" name="payment">
+                    <datalist id="payment">
+                        <option>Self Sponsor</option>
+                        <option>Family Sponsor</option>
+                    </datalist>
+                </div>
+
+                <p class="h6 text-center">please provide details!</p>
+
+                <button id="submittedForm" type="submit" class="btn btn-warning d-block submit" style="width:100%">Submit</button>
+            </form>
+        </div>
+
+    </div>
 
 
 </body>
+
 </html>
