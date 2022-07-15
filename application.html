@@ -47,13 +47,13 @@
 
                 <div class="content">
                     <label><b>Town/city:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="town">
+                    <input required type="text" class="form-control" placeholder="Town/city" name="town">
                 </div>
 
 
                 <div class="content">
                     <label><b>Country:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="country">
+                    <input required type="text" class="form-control" placeholder="country" name="country">
                 </div>
 
 
@@ -65,18 +65,20 @@
 
                 <div class="content">
                     <label><b>Email:</b></label>
-                    <input required type="email" class="form-control" placeholder="tiudgh465@gmail.com?" name="email">
+                    <input required type="email" class="form-control" placeholder="example@greatadventureintl.com"
+                        name="email">
                 </div>
 
 
                 <div class="content">
                     <label><b>Phone:</b></label>
-                    <input required type="number" class="form-control" placeholder="What'sapp Perferable!" name="phone">
+                    <input required type="number" class="form-control" placeholder="WhatsApp Perferable!" name="phone">
                 </div>
 
                 <div class="content">
                     <label><b>Gender:</b></label>
-                    <input required type="text" list="gender" class="form-control" name="gender">
+                    <input required type="text" list="gender" class="form-control" name="gender"
+                        placeholder="select gender">
                     <datalist id="gender">
                         <option>Male</option>
                         <option>Female</option>
@@ -86,19 +88,33 @@
 
                 <div class="content">
                     <label><b>Marital status:</b></label>
-                    <input required type="text" class="form-control" placeholder="Single?" name="mStatus">
+                    <input required type="text" list="mStatus" class="form-control" placeholder="Single?"
+                        name="mStatus">
+                    <datalist id="mStatus">
+                        <option>Married</option>
+                        <option>Divorce</option>
+                        <option>Separated</option>
+                    </datalist>
                 </div>
 
 
                 <div class="content">
                     <label><b>Perfered Destination:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="pDestination">
+                    <input required type="text" list="destination" class="form-control" placeholder="select one"
+                        name="pDestination">
+                    <datalist id="destination">
+                        <option>UK</option>
+                        <option>Canada</option>
+                        <option>USA</option>
+                        <option>Australia</option>
+                        <option>Ireland</option>
+                    </datalist>
                 </div>
 
 
                 <div class="content">
                     <label><b>Country of citizenship:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="COC">
+                    <input required type="text" class="form-control" placeholder="Country of citizenship" name="COC">
                 </div>
 
 
@@ -121,36 +137,24 @@
                 </div>
 
                 <div class="content">
-                    <label><b>Program in View</b></label>
+                    <label><b>Current Degree</b></label>
                     <input id="programBox" required type="text" class="form-control"
-                        placeholder="Undergraduate, Bachelor, Masters" name="program-In-View">
+                        placeholder=" SSCE, Bachelor, Masters" name="program-In-View">
                 </div>
-                <div class="content">
+                <!-- <div class="content">
                     <label><b>upload Current Degree</b></label>
                     <input type="file" id="file" required type="text" class="form-control"
                         placeholder="Undergraduate, Bachelor, Masters" name="degree">
-                </div>
+                </div> -->
                 <div class="content">
                     <label><b>School Name:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="sName">
+                    <input required type="text" class="form-control" placeholder="school" name="sName">
                 </div>
-                <div class="content">
-                    <label><b>School Address:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="sAddress">
-                </div>
-
-
-                <div class="content">
-                    <label><b>City:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="ahCity">
-                </div>
-
 
                 <div class="content">
                     <label><b>Country:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="ahCountry">
+                    <input required type="text" class="form-control" placeholder="country" name="ahCountry">
                 </div>
-
 
                 <div class="date">
                     <label><b>Date:</b></label>
@@ -179,23 +183,32 @@
                     <input required type="text" class="form-control" placeholder="Yes OR No" name="Certificate">
                 </div>
 
-
-                <div class="content">
+                <!-- <div class="content">
                     <label><b>Higher institution:</b></label>
                     <input required type="text" class="form-control" placeholder="Polytechinc,University"
                         name="institution">
-                </div>
+                </div> -->
 
-                <p class="h4 text-center pt-5">Enrollment</p>
+                <p class="h4 text-center pt-5">Intended Program of Study</p>
 
                 <div class="content">
-                    <label><b>Educational objective:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="eObjective">
+                    <label><b>Country of Study</b></label>
+                    <input required type="text" list="cof" class="form-control" placeholder="select country"
+                        name="eObjective">
+                    <datalist id="cof">
+                        <option>UK <i class="fa fa-nigeria"></i></option>
+                        <option>Canada</option>
+                        <option>USA</option>
+                        <option>Australia</option>
+                        <option>Ireland</option>
+                    </datalist>
+
                 </div>
 
                 <div class="content">
                     <label><b>Level of education:</b></label>
-                    <input required type="text" list="education" class="form-control" placeholder="?" name="eObjective">
+                    <input required type="text" list="education" class="form-control"
+                        placeholder="select level of education" name="eObjective">
                     <datalist id="education">
                         <option>A'level</option>
                         <option>Foundation</option>
@@ -208,45 +221,57 @@
 
                 <div class="content">
                     <label><b>Intake:</b></label>
-                    <input required type="text" list="intake" class="form-control" placeholder="?" name="intake">
+                    <input required type="text" list="intake" class="form-control" placeholder="select one"
+                        name="intake">
                     <datalist id="intake">
-                        <option>September 2022</option>
-                        <option>January 2023</option>
-                        <option>May 2023</option>
-                        <option>September 2023</option>
+                        <option>Fall 2022</option>
+                        <option>Winter 2023</option>
+                        <option>Summer 2023</option>
+                        <option>Fall 2023</option>
                     </datalist>
                 </div>
-
                 <div class="content">
                     <label><b>Course of Study:</b></label>
-                    <input required type="text" list="course" class="form-control" placeholder="?" name="course">
-                    <datalist id="course">
-                        <option>1st choice</option>
-                        <option>2nd choice</option>
-                        <option>3rd choice</option>
-                    </datalist>
+                    <input required type="text" class="form-control" placeholder="course of study" name="course">
                 </div>
-
                 <div class="content">
                     <label><b>Tuition Budget:</b></label>
-                    <input required type="text" class="form-control" placeholder="?" name="tBudget">
+                    <input required type="text" class="form-control" placeholder="$ Tuition Budget" name="tBudget">
                 </div>
-
-
                 <p class="h4 text-center pt-5">Sponsor Details</p>
-
-
                 <div class="content">
                     <label><b>How will you be paying:</b></label>
-                    <input required type="text" list="payment" class="form-control" placeholder="?" name="payment">
+                    <input required type="text" list="payment" class="form-control" placeholder="method of payments"
+                        name="payment">
                     <datalist id="payment">
                         <option>Self Sponsor</option>
                         <option>Family Sponsor</option>
                     </datalist>
                 </div>
-
                 <p class="h6 text-center">please provide details!</p>
-
+                <div class="content">
+                    <p><label><b>Attach Applicable Documents</b></label></p>
+                    <div class="row">
+                        <div class="col-3">
+                            <span>Undergraduate</span>
+                            <input required type="file" class="form-control mt-2" placeholder="Upload Document" name="undergraduate">
+                        </div>
+                        <div class="col-3">
+                            <span>Postgraduate</span>
+                            <input required type="file" class="form-control mt-2" placeholder="Upload Document" name="post-graduate">
+                            
+                        </div>
+                        <div class="col-6">
+                           
+                        </div>
+                        
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12">
+                            <input type="checkbox" class="form-check-input" required> <span>Every Details Provided are Geniune</span>
+                        </div>
+                    </div>
+                </div>
                 <button id="submittedForm" type="submit" class="btn btn-warning d-block submit"
                     style="width:100%">Submit</button>
             </form>
