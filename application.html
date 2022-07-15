@@ -22,7 +22,7 @@
         <div class="row">
             <P class="h2 text-center header-text text-white">Application Form</P>
 
-            <form class="pt-3">
+            <form class="pt-3" action="https://formspree.io/f/xrgjwnwp" method="post">
                 <a href="index.html" class="btn btn-warning" style="padding-left: 2em"> <i
                         class="fa fa arrow-left"></i>Home</a>
                 <p class="h4 text-center">Personal Data</p>
@@ -117,70 +117,23 @@
 
                 <p class="h4 text-center pt-5">Academic History</p>
                 <div class="content">
-                    <i class="text-center">let us know what degree you currently posses</i>
+                    <!-- <i class="text-center">let us know what degree you currently posses</i> -->
                 </div>
 
                 <div class="content">
-                    <p><label><b>Select Current Degree:</b></label></p>
-                    <!-- <select class="form-control" name="degrees" id="degrees">
-                        <option id="chooseCurrentQau" value="select-current-qualification">Select degree</option> &nbsp;&nbsp;&nbsp;&nbsp;
-                        <option id="ssce" value="ssce">SSCE</option>
-                        <option id="bachelor" value="bachelor">BACHELOR</option>
-                        <option id="masters" value="masters">MASTERS</option>
-                    </select> -->
-                    <input id="programBox" required type="text" class="form-control" placeholder="Undergraduate, Bachelor, Masters" name="secondarySchool">
-                    <p></p>
-                    <p>
-                        <input id="undergraduateFile" class="UndergraduateFile " type="file" name="UndergraduateFile">
-                    <input class="bachelorFile" type="file" name="bachelorFile">
-                    <input class="mastersFile " type="file" name="mastersFile"></p>
-                    <b id="sub">check</b>
+                    <label><b>Program in View</b></label>
+                    <input id="programBox" required type="text" class="form-control"
+                        placeholder="Undergraduate, Bachelor, Masters" name="program-In-View">
                 </div>
-                <style>
-                    .UndergraduateFile, .mastersFile{
-                        
-                        display: none;
-                    }
-
-                    #programBox{
-                        text-transform: uppercase;
-                    }
-                </style>
-                <script type="text/javascript">
-                    document.getElementById('sub').onclick = function(){
-                        var programBox = document.getElementById('programBox').value;
-
-                        if (programBox === "UNDERGRADUATE") {
-                            document.getElementById('undergraduateFile').style.display = "block";
-                        }
-
-                    }
-                </script>
-               
-
-
-
-                <!-- THE FILE UPLOAD SECTION -->
-                <!-- <div class="content">
-                    <div class="row selectguys">
-                        <div class="col-md-4">
-                            <span>SSCE</span>
-                        </div>
-                        <div class="col-md-4">
-                            <span>Barchelor</span>
-                        </div>
-                        <div class="col-md-4">
-                            <span>Barchelor</span>
-                        </div>
-                    </div>
-                </div> -->
-
+                <div class="content">
+                    <label><b>upload Current Degree</b></label>
+                    <input type="file" id="file" required type="text" class="form-control"
+                        placeholder="Undergraduate, Bachelor, Masters" name="degree">
+                </div>
                 <div class="content">
                     <label><b>School Name:</b></label>
                     <input required type="text" class="form-control" placeholder="?" name="sName">
                 </div>
-
-
                 <div class="content">
                     <label><b>School Address:</b></label>
                     <input required type="text" class="form-control" placeholder="?" name="sAddress">
@@ -294,7 +247,8 @@
 
                 <p class="h6 text-center">please provide details!</p>
 
-                <button id="submittedForm" type="submit" class="btn btn-warning d-block submit" style="width:100%">Submit</button>
+                <button id="submittedForm" type="submit" class="btn btn-warning d-block submit"
+                    style="width:100%">Submit</button>
             </form>
         </div>
 
