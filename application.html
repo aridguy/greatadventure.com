@@ -22,20 +22,21 @@
         <div class="row">
             <P class="h2 text-center header-text text-white">Application Form</P>
 
-            <form class="pt-3" action="https://formspree.io/f/xrgjwnwp" method="post">
+            <form class="pt-3" id="formWrap" action="https://formspree.io/f/xrgjwnwp" method="post" enctype="multipart/form-data">
                 <a href="index.html" class="btn btn-warning" style="padding-left: 2em"> <i
                         class="fa fa arrow-left"></i>Home</a>
                 <p class="h4 text-center">Personal Data</p>
 
                 <div class="content">
                     <label><b>Surname:</b></label>
-                    <input required type="text" class="form-control" placeholder="Surname?" name="surname">
+                    <input required type="text" class="form-control" placeholder="Surname?" name="surname" id="surname">
                 </div>
 
 
                 <div class="content">
                     <label><b>Firstname:</b></label>
-                    <input required type="text" class="form-control" placeholder="Firstname?" name="firstname">
+                    <input required type="text" class="form-control" placeholder="Firstname?" name="firstname"
+                        id="firstname">
                 </div>
 
 
@@ -254,21 +255,24 @@
                     <div class="row">
                         <div class="col-3">
                             <span>Undergraduate</span>
-                            <input type="file" class="form-control mt-2" placeholder="Upload Document" name="undergraduate">
+                            <input type="file" class="form-control mt-2" placeholder="Upload Document"
+                                name="undergraduate" id="undergraduate">
                         </div>
                         <div class="col-3">
                             <span>Postgraduate</span>
-                            <input type="file" class="form-control mt-2" placeholder="Upload Document" name="post-graduate" accept=".pdf">
-                            
+                            <input type="file" class="form-control mt-2" placeholder="Upload Document"
+                                name="post-graduate" accept=".pdf">
+
                         </div>
                         <div class="col-6">
-                           
+
                         </div>
-                        
+
                     </div>
                     <div class="row mt-5">
                         <div class="col-12">
-                            <input type="checkbox" class="form-check-input" required> <span>Every Details Provided are Geniune</span>
+                            <input type="checkbox" class="form-check-input" required> <span>Every Details Provided are
+                                Geniune</span>
                         </div>
                     </div>
                 </div>
@@ -278,6 +282,44 @@
         </div>
 
     </div>
+
+    <script>
+        // function sendForm() {
+
+            // let surn = document.getElementById("surname").value;
+            // let first = document.getElementById("firstname").value;
+            // let unders = document.getElementById("undergraduate").value;
+            // console.log(surn, first, unders);
+
+            // let formData = new FormData();
+            // formData.append('surname', surn)
+            // formData.append('firstname', first)
+            // formData.append('undergraduate', unders)
+
+            // const XHR = new XMLHttpRequest();
+            // XHR.addEventListener('load', function (event) {
+            //     alert('Yeah! Data sent and response loaded.');
+            // });
+
+            // XHR.addEventListener('error', function (event) {
+            //     alert('Oops! Something went wrong.');
+            // });
+
+            // Set up our request
+            // XHR.open('POST', 'https://formspree.io/f/xrgjwnwp');
+
+            // Add the required HTTP header for form data POST requests
+            // XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+            // Finally, send our data.
+            // XHR.send(formData);
+        // }
+
+
+
+            // action="https://formspree.io/f/xrgjwnwp" method="post"
+
+    </script>
 
 
 </body>
