@@ -22,7 +22,7 @@
         <div class="row">
             <P class="h2 text-center header-text text-white">Application Form</P>
 
-            <form class="pt-3" id="formWrap" action="https://formspree.io/f/xrgjwnwp" method="post" enctype="multipart/form-data">
+            <form class="pt-3" action="function/process.php" method="post" enctype="multipart/form-data">
                 <a href="index.html" class="btn btn-warning" style="padding-left: 2em"> <i
                         class="fa fa arrow-left"></i>Home</a>
                 <p class="h4 text-center">Personal Data</p>
@@ -42,7 +42,7 @@
 
                 <div class="content">
                     <label><b>Permanent Home Address:</b></label>
-                    <input required type="text" class="form-control" placeholder="Home address?" name="PHA">
+                    <input required type="text" class="form-control" placeholder="Home address?" name="permanentaddress">
                 </div>
 
 
@@ -60,14 +60,13 @@
 
                 <div class="content">
                     <label><b>Date Of Birth:</b></label>
-                    <input required type="date" class="form-control" name="DOB">
+                    <input required type="date" class="form-control" name="dob">
                 </div>
 
 
                 <div class="content">
                     <label><b>Email:</b></label>
-                    <input required type="email" class="form-control" placeholder="example@greatadventureintl.com"
-                        name="email">
+                    <input required type="email" class="form-control" placeholder="example@greatadventureintl.com" name="email">
                 </div>
 
 
@@ -90,7 +89,7 @@
                 <div class="content">
                     <label><b>Marital status:</b></label>
                     <input required type="text" list="mStatus" class="form-control" placeholder="Single?"
-                        name="mStatus">
+                        name="mstatus">
                     <datalist id="mStatus">
                         <option>Married</option>
                         <option>Divorce</option>
@@ -102,7 +101,7 @@
                 <div class="content">
                     <label><b>Perfered Destination:</b></label>
                     <input required type="text" list="destination" class="form-control" placeholder="select one"
-                        name="pDestination">
+                        name="preferedestination">
                     <datalist id="destination">
                         <option>UK</option>
                         <option>Canada</option>
@@ -115,19 +114,19 @@
 
                 <div class="content">
                     <label><b>Country of citizenship:</b></label>
-                    <input required type="text" class="form-control" placeholder="Country of citizenship" name="COC">
+                    <input required type="text" class="form-control" placeholder="Country of citizenship" name="citizenship">
                 </div>
 
 
                 <div class="content">
                     <label><b>Disability</b></label>
-                    <input required type="text" class="form-control" placeholder="If yes, Specify!" name="Disability">
+                    <input required type="text" class="form-control" placeholder="If yes, Specify!" name="disability">
                 </div>
 
 
                 <div class="content">
                     <label><b>Travelling with spouse</b></label>
-                    <input required type="text" class="form-control" placeholder="If yes, Specify!" name="TWS">
+                    <input required type="text" class="form-control" placeholder="If yes, Specify!" name="travelwithspouse">
                 </div>
 
 
@@ -140,7 +139,7 @@
                 <div class="content">
                     <label><b>Current Degree</b></label>
                     <input id="programBox" required type="text" class="form-control"
-                        placeholder=" SSCE, Bachelor, Masters" name="program-In-View">
+                        placeholder=" SSCE, Bachelor, Masters" name="programinview">
                 </div>
                 <!-- <div class="content">
                     <label><b>upload Current Degree</b></label>
@@ -149,12 +148,12 @@
                 </div> -->
                 <div class="content">
                     <label><b>School Name:</b></label>
-                    <input required type="text" class="form-control" placeholder="school" name="sName">
+                    <input required type="text" class="form-control" placeholder="school" name="schoolname">
                 </div>
 
                 <div class="content">
                     <label><b>Country:</b></label>
-                    <input required type="text" class="form-control" placeholder="country" name="ahCountry">
+                    <input required type="text" class="form-control" placeholder="country" name="country">
                 </div>
 
                 <div class="date">
@@ -175,13 +174,13 @@
 
                 <div class="content">
                     <label><b>Year of graduation:</b></label>
-                    <input required type="date" class="form-control" name="YOgraduation">
+                    <input required type="date" class="form-control" name="yearofgraduation">
                 </div>
 
 
                 <div class="content">
                     <label><b>Certificate avaliable:</b></label>
-                    <input required type="text" class="form-control" placeholder="Yes OR No" name="Certificate">
+                    <input required type="text" class="form-control" placeholder="Yes OR No" name="certificate">
                 </div>
 
                 <!-- <div class="content">
@@ -195,7 +194,7 @@
                 <div class="content">
                     <label><b>Country of Study</b></label>
                     <input required type="text" list="cof" class="form-control" placeholder="select country"
-                        name="eObjective">
+                        name="countryofstudy">
                     <datalist id="cof">
                         <option>UK <i class="fa fa-nigeria"></i></option>
                         <option>Canada</option>
@@ -209,7 +208,7 @@
                 <div class="content">
                     <label><b>Level of education:</b></label>
                     <input required type="text" list="education" class="form-control"
-                        placeholder="select level of education" name="eObjective">
+                        placeholder="select level of education" name="educationlevele">
                     <datalist id="education">
                         <option>A'level</option>
                         <option>Foundation</option>
@@ -237,7 +236,7 @@
                 </div>
                 <div class="content">
                     <label><b>Tuition Budget:</b></label>
-                    <input required type="text" class="form-control" placeholder="$ Tuition Budget" name="tBudget">
+                    <input required type="text" class="form-control" placeholder="$ Tuition Budget" name="tuitionbudget">
                 </div>
                 <p class="h4 text-center pt-5">Sponsor Details</p>
                 <div class="content">
@@ -261,7 +260,7 @@
                         <div class="col-3">
                             <span>Postgraduate</span>
                             <input type="file" class="form-control mt-2" placeholder="Upload Document"
-                                name="post-graduate" accept=".pdf">
+                                name="postgraduate" accept=".pdf">
 
                         </div>
                         <div class="col-6">
